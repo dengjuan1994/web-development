@@ -51,6 +51,19 @@
 	<p>好看的图片<br/>
 	<img src="images/task101.jpg" />
 	</p>
+	
+	<!--用自定义列表-->
+	<dl>
+		<dt>好看的图片</dt>
+			<dd><img src="images/task101.jpg" alt="photo" title="photo" /></dd>
+		<dt>好看的图片</dt>
+			<dd><img src="images/task101.jpg" alt="photo" title="photo" /></dd>
+		<dt>好看的图片</dt>
+			<dd><img src="images/task101.jpg" alt="photo" title="photo" /></dd>
+		<dt>好看的图片</dt>
+			<dd><img src="images/task101.jpg" alt="photo" title="photo" /></dd>
+	</dl>
+	
 	</div>
 
 	<div>
