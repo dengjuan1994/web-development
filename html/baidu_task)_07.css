@@ -1,0 +1,458 @@
+*{
+	padding: 0;
+	border: 0;
+	}
+
+body{
+	min-width:1000px;
+	width:100%;
+	font-family: "Microsoft YaHei";
+	font-size:12px;
+	margin: 0 auto;
+	
+}
+
+/*header部分的样式*/
+
+#header{
+	height:50px;
+	padding:20px;
+}
+
+#header span{
+	font-size:1.5em;
+	vertical-align:top;
+	font-weight:20px;
+	font-weight:bold;
+}
+
+.nav{
+	font-size:1.1em;
+}
+.nav ul{
+	list-style:none;
+	position:absolute;
+	right:0px;
+	top:20px;
+}
+
+.nav li{
+	float:left;
+	width:100px;
+}
+
+.nav a{
+	text-decoration:none;
+}
+
+.nav a:link{
+	color:gray;
+}
+
+.nav a:hover{
+	border-bottom:5px solid #e74f4d;
+	transition: all .3s;
+}
+
+.nav a:visited{
+	color:blue;
+}
+
+
+/*part01部分的样式*/
+
+.part01{
+	background-image:url(images/task0706.jpg);
+	background-size:100% auto;
+	height:600px;
+	position:relative;
+}
+
+.part01-content{
+	color:white;
+	position:absolute;
+	left:13%;
+	top:20%;
+	line-height:40px;
+}
+	
+.part01-content h2{
+	font-size:2em;
+}
+
+.part01-content p{
+	font-size:1.6em;
+}
+
+.part01-content p:nth-child(2){
+	font-size:1.4em;
+}
+
+.part01-content input{
+	background-color:#e74f4d;
+	font-size:2.3em;
+	border:none;
+	color:white;
+	width:250px;
+}
+
+/*part02部分样式*/
+
+.part02{
+	height:150px;
+}
+
+.part02 ul{
+	list-style:none;
+	position:absolute;
+}
+
+.part02 li{
+	float:left;
+	width:280px;
+	text-align:center;
+	color:gray;
+}
+
+.part02 li p{
+	border-right:2px solid gray;
+}
+
+
+/*part03部分样式*/
+
+.part03{
+	background-color:rgb(236,236,236);
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+
+.part03 img{
+	padding-top:5%;
+}
+
+.part03 p{
+	font-size:3em;
+	padding-bottom:5%;
+	color:gray;
+}
+
+/*part04部分样式*/
+.part04{
+	background-image:url(images/task0712.jpg);
+	background-size:100% auto;
+	height:400px;
+	text-align:center;
+	color:white;
+	line-height:50px;
+}
+
+.part04 h6{
+	font-size:2em;
+	padding-top:5%;
+}
+
+.part04 p{
+	font-size:1.2em;
+}
+
+.part04 select,
+.part04 a{
+	display:inline-block;
+	border:1px solid #e74f4d;
+	width:250px;
+	height:50px;
+	line-height:50px;
+}
+
+.part04 select:hover,
+.part04 a:hover{
+	border: 1px solid #01BEEF;
+    transition: all .5s;
+}
+
+.part04 a{
+	background-color: #e74f4d;
+    color: white;
+}
+
+
+/*part05部分样式*/
+
+.part05{
+	background-color:#f7f7f7;
+	text-align:center;
+	line-height:30px;
+}
+
+.part05 img{
+	border:10px solid white;
+	width:200px;
+	height:300px;
+}
+
+.part05 ul{
+	list-style:none;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.part05 li{
+	width:200px;
+	margin-top:8%;
+	margin-left:80px;
+	margin-bottom:8%;
+}
+
+.part05 h5{
+	font-size:1.5em;
+	color:gray;
+}
+
+.part05 p{
+	color:gray;
+}
+
+/*part06部分样式*/
+.part06{
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.part06-left{
+	background-image:url(images/task0717.jpg);
+	-webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+	text-align:center;
+	color:white;
+}
+
+.part06-left .left01{
+	padding-top:30px;
+	font-size:4em;
+}
+.part06-left .left02{
+	font-size:8em;
+	line-height:55px;
+}
+
+.part06-left .left03{
+	font-size:1.5em;
+	line-height:45px;
+}
+
+
+.part06-right{
+	flex:1;
+	padding-top:5%;
+	text-align:center;
+	color:gray;
+}
+
+.part06-right h3{
+	font-size:3em;
+}
+
+.part06-right span{
+	color:red;
+}
+
+.part06-right p{
+	padding-left:50px;
+	padding-right:50px;
+}
+.part06-right a
+{
+	border:1px solid red;
+	width:100px;
+	height:50px;
+	line-height:50px;
+	color:red;
+	display:inline-block;
+	text-decoration:none;
+	margin-top:20px;
+}
+
+
+.part06-right ul{
+	list-style:circle;
+	color:gray;
+}
+
+.part06-right li{
+	float:right;
+	padding:10px;
+}
+
+
+/*part07部分样式*/
+
+/*part06-right a和part07的a*/ 
+
+.part07{
+	display:flex;
+
+}
+
+.part07-left,
+.part07-center,
+.part07-right{
+	flex:1;
+	text-align:center;
+}
+
+.part07-left,
+.part07-center{
+	font-size:1.6em;
+	padding-top:10%;
+	padding-bottom:10%;
+}
+
+.part07-left{
+	background-color:red;
+	color:white;
+}
+
+.part07-center {
+	color:gray;
+}
+
+.part07-left a,
+.part07-center a{
+	width:100px;
+	height:50px;
+	line-height:50px;
+	display:inline-block;
+	text-decoration:none;
+}
+
+.part07-left a{
+	border:1px solid white;
+	color:white;
+}
+
+.part07-center a{
+	border:1px solid red;
+	color:red;
+}
+
+.part07-right{
+	background-image:url(images/task0718.jpg);
+}
+
+.part07-left .underline1,
+.part07-center .underline2{
+	width:40px;
+	margin:0 auto;
+	margin-bottom:20px;
+	margin-top:20px;	
+}
+
+.part07-left .underline1{
+	border-bottom:2px solid white;
+}
+
+.part07-center .underline2{
+	border-bottom:2px solid red;	
+}
+
+
+/*part08部分样式*/
+
+/*part08 top样式*/
+.part08{
+	margin-top:100px;
+}
+
+.part08-top{
+	text-align:center;
+	color:gray;
+	line-height:1.2em;
+}
+
+.part08-top h3{
+	font-size:2em;
+
+}
+
+.part08-top .underline3{
+	width:40px;
+	margin:0 auto;
+	margin-bottom:20px;
+	margin-top:20px;	
+	border-bottom:2px solid red;
+}
+
+.part08-top p{
+	font-size:1.2em;
+}
+
+/*part08 bottom left 样式*/
+
+.part08-bottom {
+	display:flex;
+	padding-left:10%;
+	
+}
+
+.part08-bottom-left{
+	flex:1;
+	padding-right:50px;
+	color:gray;
+	line-height:1.5em;
+}
+
+.part08-bottom-left h4{
+	font-size:1.5em;
+	margin-top:30px;
+}
+
+.part08-bottom-left p{
+	font-size:1.2em;
+
+}
+.part08-bottom-right{
+	flex:2;
+	margin-top:20px;
+	margin-left:10%;
+}
+
+.part08-bottom-right td,
+.part08-bottom-right input,
+.part08-bottom-right textarea{
+	background-color:#ededee;
+
+}
+
+.part08-bottom-right td{
+	height:50px;
+}
+
+.part08-bottom-right textarea
+{
+	width:82%;
+}
+
+.part08-bottom-right table{
+	border-spacing:20px;
+}
+
+.part08-bottom-right textarea,
+.part08-bottom-right input{
+	margin-left:20px;
+}
+
+.part08-bottom-right .part08-submit{
+	width:82%;
+	margin-top:20px;
+	height:50px;
+}
+
+
+
+
+
