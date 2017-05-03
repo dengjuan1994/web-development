@@ -453,6 +453,65 @@ body{
 }
 
 
+/*footer部分样式*/
+.footer {
+	margin-top:10%;
+	padding-top:6%;
+	text-align:center;
+	background-color:rgb(45,47,53);
+	line-height:1.2em;
+	color:white;
+}
+
+.footer h4{
+	font-size:1.6em;
+}
+
+.footer p{
+	font-size:1.2em;
+}
+
+.footer input{
+	width:350px;
+	height:30px;
+	padding:10px;
+}
+
+.footer .footer-email{
+	
+	height:30px;
+	width:120px;
+	background-color:rgb(88,88,93);
+	display:inline-block;
+	line-height:30px;
+	margin-left:-3px;
+}
+
+
+.footer-a a{
+	padding-left:10px;
+}
+
+.footer-bottom {
+	height:30px;
+	padding:20px;
+	background-color:rgb(43,43,50);
+	position:absolute;
+	left:0;
+	right:0;
+}
+
+.footer-bottom span{
+	position:absolute;
+	left:40px;
+}
+	
+.footer-bottom  a{
+	position:absolute;
+	right:40px;
+	color:white;
+	text-decoration:none;
+}
 
 
 
